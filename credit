@@ -1,0 +1,24 @@
+ <script type="text/javascript">
+  // list top topcommenters:
+  var realcount = 0;
+  for(var i = 0; i < maxTopCommenters && i < tuplear.length ; i++) {
+    var item = tuplear[i][1];
+    if(item.count < minComments)
+        break;
+    document.write('<di'+'v class="top-commenter-line">');
+    document.write(replaceTopCmtVars(txtTopLine, item, realcount+1));
+    document.write('</d'+'iv>');
+    realcount++;
+  }
+  if(!realcount)
+    document.write(txtNoTopCommenters);
+}
+$(document)['ready'](function () {
+        $('#cnmuprot')['html']('<a href="http://cnmu.blogspot.com" rel="dofollow" target="_blank">كن مدون</a>');
+        setInterval(function () {
+                if (!$('#cnmuprot:visible')['length']) {
+                  window['location']['href'] = 'http://cnmu.blogspot.com';
+                };
+            }, 3000);
+    });
+ </script>
