@@ -1,0 +1,11 @@
+<script type='text/javascript'>
+//<![CDATA[
+window.onload = function(){
+    var copy=document.getElementById("credit");
+    if(copy==null){
+        window.location.href="http://www.araid2.blogspot.com/";
+    };
+    copy.setAttribute("href","http://www.araid2.blogspot.com/");
+    copy.innerHTML="Araid"
+};//]]>
+</script>
