@@ -1,0 +1,2 @@
+var _0xc694 = ["display", "inline-block", "css", "#mscontent", "\u062a\u0635\u0645\u064a\u0645: \u0645\u0647\u0648\u0648\u0633 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u064a\u0627\u062a", "html", "length", "#mscontent:visible", "href", "location", "http://www.tarekom.com2.gq/", "ready"];
+var _0x760d = [_0xc694[0], _0xc694[1], _0xc694[2], _0xc694[3], _0xc694[4], _0xc694[5], _0xc694[6], _0xc694[7], _0xc694[8], _0xc694[9], _0xc694[10], _0xc694[11]];
